@@ -1,0 +1,287 @@
+html, body, header, .container, footer {
+    width: 100%;
+    margin: 0;
+    float: center;
+    position: relative;
+}
+
+section {padding-bottom: 50px;}
+
+.left {
+    position: fixed;
+    left: 5%;
+    width: 18%;
+    z-index: 100;
+    border-right: 1.5px dashed #1ead84;
+    margin: 20px 0;
+}
+
+.right {
+    width: 75%;
+    margin: 0;
+    position: relative;
+    height: auto;
+}
+
+.welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {
+    margin: 0;
+    position: relative;
+}
+
+.right_ph, .right_p {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+.right_p {
+    margin-right: 15%;
+    border-bottom: 1px solid #1ead84;
+}
+
+h1, .desc, .b1 h1, .b1 h2, footer, .welcome h2, .calendar {text-align: center;}
+
+.timeline {text-align: right;}
+
+.text, .right_ph, .right_ph h1, .right_ph h2, .right_ph h3, .right_p, .right_p h1, .right_p h2, .right_p h3, .bg h1, .b2 h1, .news_text h1 {text-align: left;}
+
+header, .container, right, .right_ph, .right_p, .intro_hide, .news {overflow: hidden;}
+
+header {
+    top: 0;
+    left: 0;
+    height: 90px;
+    z-index: 9999;
+    border-bottom: 3px solid #1ead84;
+}
+
+.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .calendar, .achieve, .achieve_img, .intro_text, .intro_img {float: left;}
+
+.right {float: right;}
+
+.b1, .news_img {float: center;}
+
+.nav_logo {
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-top-right-radius: 20px;
+}
+
+.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .calendar_text div ul li {
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .calendar_text div ul li, .intro_pro li, .timeline li {list-style-type: none;}
+
+.nav_logo li a img {height: 60px;}
+
+.nav_text {
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+}
+
+.nav_text li a, .timeline {padding-right: 15px;}
+
+.welcome {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.b1, .b2 {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.b2 {
+    padding-left: 20px;
+    border-top: 1px solid #1ead84;
+}
+
+.calendar_text {
+    padding-left: 20px;
+    height: 150px;
+}
+
+.calendar_text div ul {
+    width: 500px;
+    padding-left: 200px;
+}
+
+.calendar {
+    width: 130px;
+    height: 130px;
+    padding-top: 50px;
+    background-size: 130px;
+    background-repeat: no-repeat;
+    line-height: 100%;
+}
+
+.achieve {
+    padding: 10px 0;
+    width: 50%;
+}
+
+.achieve_img {
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    padding-right: 5px;
+}
+
+.news {
+    width: 70%;
+    height: 100%;
+    margin: 30px;
+    border: 1px solid gray;
+}
+
+.news_img img{width: 100%}
+
+.news_img, .news_text {margin: 15px;}
+
+.textout {
+    width: auto;
+    margin-left: 10%;
+    padding-top: 30px;
+    cursor: pointer;
+    line-height: 200%;
+}
+
+.intro_hide {
+    display: none;
+    padding-left: 10px;
+    border-left: 3px solid #1ead84;
+}
+
+.lineout {
+    width: 4px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.intro_text {width: 70%;}
+
+.intro_img {
+    margin-left: 5%;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    border: 2px dotted #1ead84;
+}
+
+.welcome h1, .b1 h1 {letter-spacing: 1px;}
+
+.welcome h1 {
+    font-size: 500%;
+    text-shadow: 0px 1px 5px black;
+}
+
+.welcome h2 {
+    font-size: 200%;
+    text-shadow: 0px 1px 5px black;
+}
+
+.calendar {font-size: 300%;}
+
+.achieve h2 emph, .bg h1{font-size: 200%;}
+
+.subnav_h2, .text {text-indent: 2em;}
+
+.right_ph h2, .achieve div h2 {font-size: 175%;}
+
+.nav_text, .achieve h1 emph, .right_ph h1, .right_p h1 {font-size: 150%;}
+
+.left, .right_ph h2, .right_p h2, .timeline {font-size: 125%;}
+
+.timeline li a:hover, .timeline li a:active {font-size: 110%;}
+
+.achieve h1, .right_p h3 {font-size: 100%}
+
+.intro_hide, .date {font-size: 90%;}
+
+.desc {font-size: 65%;}
+
+.desc, .text a, .right_p ul li emph, .right_p emph {font-weight: bold;}
+
+.b1 h1, .subnav_h1 li a, .text, .calendar_text, .right_p, .right_ph {font-size: 120%;}
+
+.right_p h3 {line-height: 100%;}
+
+.left, .right_ph p, .text, .calendar_text, .desc, .intro_hide {line-height: 150%;}
+
+.right_p, .timeline {line-height: 200%;}
+
+.right_ph table {
+    width: 85%;
+    margin: 0;
+}
+
+.img{
+    margin: 10px;
+    border: 1px solid gray;
+    width: auto; 
+    height: auto;
+}
+
+.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .img img, .calendar_text, .achieve{display: inline;}
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 9999;
+    font-size: 90%;
+    background-color: #1ead84;
+}
+
+.nav_text li a, footer div a, .subnav_h1 li a, .subnav_h2 li a, .text a, .desc a, .project, .btn, .timeline a {text-decoration: none;}
+
+.nav_text li a, .nav_text li a, .subnav_h1 li a, .subnav_h2 li a, .right h1, .right h2, .right h3, .right h4, .right_ph h1, .right_ph h2, .right_ph h3, .right_ph h4, .right_p h1, .right_p h2, .right_p h3, .right_p h4, .bg h1, .calendar, .achieve, .timeline li {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.welcome h1 {font-family: 'Signika', sans-serif;}
+
+.welcome h2, .calendar_text, .b1 h2, b2 h1, footer div, footer div a, h1, .text, .right_ph, .right_p, ul li, .desc, .achieve h1, .achieve h2, .news {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+}
+
+.text a, .subnav_h1 li a, .desc a, .timeline li a {color: black;}
+
+.nav_text li a:link, .nav_text li a:visited, .calendar, .subnav_h1 li a:active, .subnav_h1 li a:hover, .subnav_h2 li a:active, .subnav_h2 li a:hover, .text a:active, .text a:hover, .desc a:active, .desc a:hover, .textout, .btn, .timeline li a:active,
+.timeline li a:hover {color: #1ead84;}
+
+.welcome, footer div a:link, footer div a:visited, footer div{color: white;}
+
+.nav_text li a:hover, .nav_text li a:active, .btn:hover, .btn:active, .date {color: gray;}
+
+footer div a:hover, footer div a:active {color: lightgray;}
+
+.bg_2 {background-color: lightgray;}
