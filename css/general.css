@@ -7,6 +7,8 @@ html, body, header, .container, footer {
 
 section {padding-bottom: 50px;}
 
+
+
 .left {
     position: fixed;
     left: 5%;
@@ -20,7 +22,6 @@ section {padding-bottom: 50px;}
     width: 75%;
     margin: 0;
     position: relative;
-    height: auto;
 }
 
 .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {
@@ -40,7 +41,7 @@ section {padding-bottom: 50px;}
     border-bottom: 1px solid #1ead84;
 }
 
-h1, .desc, .b1 h1, .b1 h2, footer, .welcome h2, .calendar {text-align: center;}
+.nav_text li, h1, .desc, .b1 h1, .b1 h2, footer, .welcome h2, .calendar {text-align: center;}
 
 .timeline {text-align: right;}
 
@@ -72,10 +73,7 @@ header {
     border-top-right-radius: 20px;
 }
 
-.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .calendar_text div ul li {
-    padding-right: 5px;
-    padding-left: 10px;
-}
+.nav_text li {border-left: 2px solid #1ead84;}
 
 .nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .calendar_text div ul li, .intro_pro li, .timeline li {list-style-type: none;}
 
@@ -83,12 +81,15 @@ header {
 
 .nav_text {
     float: right;
-    padding-top: 30px;
+    padding-top: 35px;
     padding-bottom: 15px;
     padding-right: 5px;
 }
 
-.nav_text li a, .timeline {padding-right: 15px;}
+.nav_text li a, .timeline {
+    padding-right: 15px;
+    padding-left: 5px;
+}
 
 .welcome {
     width: 100%;
@@ -144,13 +145,12 @@ header {
 }
 
 .news {
-    width: 70%;
-    height: 100%;
+    width: 80%;
     margin: 30px;
     border: 1px solid gray;
 }
 
-.news_img img{width: 100%}
+.news_img img {width: 100%}
 
 .news_img, .news_text {margin: 15px;}
 
@@ -205,19 +205,18 @@ header {
 
 .right_ph h2, .achieve div h2 {font-size: 175%;}
 
-.nav_text, .achieve h1 emph, .right_ph h1, .right_p h1 {font-size: 150%;}
+.right_ph h1, .right_p h1, .news_img h1 {font-size: 150%;}
 
-.left, .right_ph h2, .right_p h2, .timeline {font-size: 125%;}
+.nav_text, .left, .right_ph h2, .right_p h2, .achieve h1 emph {font-size: 125%;}
 
-.timeline li a:hover, .timeline li a:active {font-size: 110%;}
+.timeline li a:hover, .timeline li a:active, .achieve h1, .right_p h3 {font-size: 110%;}
 
-.achieve h1, .right_p h3 {font-size: 100%}
 
 .intro_hide, .date {font-size: 90%;}
 
 .desc {font-size: 65%;}
 
-.desc, .text a, .right_p ul li emph, .right_p emph, .subnav_h1, .subnav_h2, .nav_text {font-weight: bold;}
+.desc, .text a, .right_p ul li emph, .right_p emph, .subnav_h1, .subnav_h2, .nav_text, .timeline li {font-weight: bold;}
 
 .b1 h1, .text, .calendar_text, .right_p, .right_ph {font-size: 120%;}
 
@@ -266,21 +265,20 @@ footer {
     letter-spacing: 1px;
 }
 
-.welcome h1 {font-family: 'Signika', sans-serif;}
+welcome h1 {font-family: 'Signika', sans-serif;}
 
 .welcome h2, .calendar_text, .b1 h2, b2 h1, footer div, footer div a, h1, .text, .right_ph, .right_p, ul li, .desc, .achieve h1, .achieve h2, .news {
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
 }
 
-.text a, .subnav_h1 li a, .desc a, .timeline li a {color: black;}
+.nav_text li a:link, .nav_text li a:visited, .text a, .subnav_h1 li a, .desc a, .timeline li a {color: black;}
 
-.nav_text li a:link, .nav_text li a:visited, .calendar, .subnav_h1 li a:active, .subnav_h1 li a:hover, .subnav_h2 li a:active, .subnav_h2 li a:hover, .text a:active, .text a:hover, .desc a:active, .desc a:hover, .textout, .btn, .timeline li a:active,
-.timeline li a:hover {color: #1ead84;}
+.nav_text li a:hover, .nav_text li a:active, .calendar, .subnav_h1 li a:active, .subnav_h1 li a:hover, .subnav_h2 li a:active, .subnav_h2 li a:hover, .text a:active, .text a:hover, .desc a:active, .desc a:hover, .textout, .btn, .timeline li a:active, .timeline li a:hover {color: #1ead84;}
 
-.welcome, footer div a:link, footer div a:visited, footer div{color: white;}
+.welcome, footer div a:link, footer div a:visited, footer div {color: white;}
 
-.nav_text li a:hover, .nav_text li a:active, .btn:hover, .btn:active, .date {color: gray;}
+.btn:hover, .btn:active, .date {color: gray;}
 
 footer div a:hover, footer div a:active {color: lightgray;}
 
