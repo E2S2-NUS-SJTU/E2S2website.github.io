@@ -217,9 +217,9 @@ header {
 
 .desc {font-size: 65%;}
 
-.desc, .text a, .right_p ul li emph, .right_p emph {font-weight: bold;}
+.desc, .text a, .right_p ul li emph, .right_p emph, .subnav_h1, .subnav_h2, .nav_text {font-weight: bold;}
 
-.b1 h1, .subnav_h1 li a, .text, .calendar_text, .right_p, .right_ph {font-size: 120%;}
+.b1 h1, .text, .calendar_text, .right_p, .right_ph {font-size: 120%;}
 
 .right_p h3 {line-height: 100%;}
 
@@ -261,9 +261,9 @@ footer {
 .nav_text li a, footer div a, .subnav_h1 li a, .subnav_h2 li a, .text a, .desc a, .project, .btn, .timeline a {text-decoration: none;}
 
 .nav_text li a, .nav_text li a, .subnav_h1 li a, .subnav_h2 li a, .right h1, .right h2, .right h3, .right h4, .right_ph h1, .right_ph h2, .right_ph h3, .right_ph h4, .right_p h1, .right_p h2, .right_p h3, .right_p h4, .bg h1, .calendar, .achieve, .timeline li {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
     font-style: normal;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .welcome h1 {font-family: 'Signika', sans-serif;}
