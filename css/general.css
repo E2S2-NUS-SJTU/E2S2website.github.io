@@ -7,8 +7,6 @@ html, body, header, .container, footer {
 
 section {padding-bottom: 50px;}
 
-
-
 .left {
     position: fixed;
     left: 5%;
@@ -57,11 +55,11 @@ header {
     border-bottom: 3px solid #1ead84;
 }
 
-.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .calendar, .achieve, .achieve_img, .intro_text, .intro_img {float: left;}
+.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .calendar, .achieve, .achieve_img, .intro_text, .intro_img, .pin {float: left;}
 
 .right {float: right;}
 
-.b1, .news_img {float: center;}
+.b1, .news_img, .b {float: center;}
 
 .nav_logo {
     margin-top: 0;
@@ -112,6 +110,21 @@ header {
     border-top: 1px solid #1ead84;
 }
 
+.b {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pin {padding: 15px;}
+ 
+.box, .news {
+    border: 1px solid gray;
+    box-shadow: 0 0 6px #ccc;
+    border-radius: 5px;
+}
+
 .calendar_text {
     padding-left: 20px;
     height: 150px;
@@ -147,12 +160,11 @@ header {
 .news {
     width: 80%;
     margin: 30px;
-    border: 1px solid gray;
 }
 
 .news_img img {width: 100%}
 
-.news_img, .news_text {margin: 15px;}
+.news_img, .news_text, .box img {margin: 10px;}
 
 .textout {
     width: auto;
