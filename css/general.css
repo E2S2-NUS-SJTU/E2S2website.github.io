@@ -1,9 +1,6 @@
-html, body, header, .container, footer {
-    width: 100%;
-    margin: 0;
-    float: center;
-    position: relative;
-}
+html, body, header, .container, footer, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
+
+html, body, header, .container, .news_img img, footer {width: 100%;}
 
 section {padding-bottom: 50px;}
 
@@ -16,36 +13,40 @@ section {padding-bottom: 50px;}
     margin: 20px 0;
 }
 
-.right {
-    width: 75%;
-    margin: 0;
-    position: relative;
-}
+.right, .right_t {width: 75%;}
 
-.welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {
-    margin: 0;
-    position: relative;
-}
+html, body, header, .container, footer, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {margin: 0;}
 
-.right_ph, .right_p {
-    margin-left: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-bottom: 30px;
-}
+.right_ph {margin: 2px;}
 
-.right_p {
+.news_img, .news_text, .box img, .right_p {margin: 10px;}
+
+.right_t {margin: 20px;}
+
+.right_ph {padding-bottom: 30px;}
+
+.right_p, .right_t {
     margin-right: 15%;
     border-bottom: 1px solid #1ead84;
 }
+
+.right_t table tr th, .right_t table tr td {padding: 10px;}
+
+.right_t table tr th {vertical-align: top;}
+
+.right_t table tr td ol {padding-left: 15px;}
+
+.right_t table {border-collapse: collapse;}
+
+.right_t table, .right_t table tr th, .right_t table tr td {border: 1px solid gray;}
 
 .nav_text li, h1, .desc, .b1 h1, .b1 h2, footer, .welcome h2, .calendar {text-align: center;}
 
 .timeline {text-align: right;}
 
-.text, .right_ph, .right_ph h1, .right_ph h2, .right_ph h3, .right_p, .right_p h1, .right_p h2, .right_p h3, .bg h1, .b2 h1, .news_text h1 {text-align: left;}
+.text, .right_ph, .right_ph h1, .right_ph h2, .right_ph h3, .right_p, .right_p h1, .right_p h2, .right_p h3, .bg h1, .b2 h1, .news_text h1, .right_t table th {text-align: left;}
 
-header, .container, right, .right_ph, .right_p, .intro_hide, .news {overflow: hidden;}
+header, .container, right, .right_ph, .right_p, .right_t, .intro_hide, .news {overflow: hidden;}
 
 header {
     top: 0;
@@ -59,7 +60,7 @@ header {
 
 .right {float: right;}
 
-.b1, .news_img, .b {float: center;}
+html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
 .nav_logo {
     margin-top: 0;
@@ -111,7 +112,7 @@ header {
 }
 
 .b {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -161,10 +162,6 @@ header {
     width: 80%;
     margin: 30px;
 }
-
-.news_img img {width: 100%}
-
-.news_img, .news_text, .box img {margin: 10px;}
 
 .textout {
     width: auto;
@@ -221,7 +218,7 @@ header {
 
 .nav_text, .left, .right_ph h2, .right_p h2, .achieve h1 emph {font-size: 125%;}
 
-.timeline li a:hover, .timeline li a:active, .achieve h1, .right_p h3 {font-size: 110%;}
+.timeline li a:hover, .timeline li a:active, .achieve h1, .right_p h3, .right_t {font-size: 110%;}
 
 
 .intro_hide, .date {font-size: 90%;}
@@ -279,7 +276,7 @@ footer {
 
 welcome h1 {font-family: 'Signika', sans-serif;}
 
-.welcome h2, .calendar_text, .b1 h2, b2 h1, footer div, footer div a, h1, .text, .right_ph, .right_p, ul li, .desc, .achieve h1, .achieve h2, .news {
+.welcome h2, .calendar_text, .b1 h2, b2 h1, footer div, footer div a, h1, .text, .right_ph, .right_p, .right_t, ul li, .desc, .achieve h1, .achieve h2, .news {
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
 }
