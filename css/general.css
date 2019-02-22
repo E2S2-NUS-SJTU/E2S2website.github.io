@@ -1,6 +1,6 @@
-html, body, header, .container, footer, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
+html, body, header, .container, footer, .home, .foot_left, .embedded_map, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
 
-html, body, header, .container, .news_img img, footer {width: 100%;}
+html, body, header, .container, .news_img img, footer, .home {width: 100%;}
 
 section {padding-bottom: 50px;}
 
@@ -15,13 +15,29 @@ section {padding-bottom: 50px;}
 
 .right, .right_t {width: 75%;}
 
-html, body, header, .container, footer, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {margin: 0;}
+html, body, header, .container, footer, .home, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img, .embedded_map {margin: 0;}
 
 .right_ph {margin: 2px;}
 
 .news_img, .news_text, .box img, .right_p {margin: 10px;}
 
 .right_t {margin: 20px;}
+
+.foot_left {
+    margin-left: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-right: 1px solid white;
+    width: 20%;
+}
+
+.embedded_map {
+    border: 3px outset gray;
+    height: 225px;
+    width: 500px;
+    margin-right: 22%;
+}
 
 .right_ph {padding-bottom: 30px;}
 
@@ -31,6 +47,13 @@ html, body, header, .container, footer, .right, .welcome, .bg, .bg_1, .bg_2, .ca
 }
 
 .right_t table tr th, .right_t table tr td {padding: 10px;}
+
+.b, .b1, .b2, footer, .foot_left {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home {padding: 30px;}
 
 .right_t table tr th {vertical-align: top;}
 
@@ -44,7 +67,7 @@ html, body, header, .container, footer, .right, .welcome, .bg, .bg_1, .bg_2, .ca
 
 .timeline {text-align: right;}
 
-.text, .right_ph, .right_ph h1, .right_ph h2, .right_ph h3, .right_p, .right_p h1, .right_p h2, .right_p h3, .bg h1, .b2 h1, .news_text h1, .right_t table th {text-align: left;}
+.foot_left, .text, .right_ph, .right_ph h1, .right_ph h2, .right_ph h3, .right_p, .right_p h1, .right_p h2, .right_p h3, .bg h1, .b2 h1, .news_text h1, .right_t table th {text-align: left;}
 
 header, .container, right, .right_ph, .right_p, .right_t, .intro_hide, .news {overflow: hidden;}
 
@@ -56,9 +79,9 @@ header {
     border-bottom: 3px solid #1ead84;
 }
 
-.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .calendar, .achieve, .achieve_img, .intro_text, .intro_img, .pin {float: left;}
+.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .calendar, .achieve, .achieve_img, .intro_text, .intro_img, .pin, .home, .foot_left {float: left;}
 
-.right {float: right;}
+.right, .embedded_map {float: right;}
 
 html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
@@ -102,8 +125,6 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 .b1, .b2 {
     width: 60%;
     margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .b2 {
@@ -114,8 +135,6 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 .b {
     width: 65%;
     margin: 0 auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .pin {padding: 15px;}
@@ -142,7 +161,6 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
     padding-top: 50px;
     background-size: 130px;
     background-repeat: no-repeat;
-    line-height: 100%;
 }
 
 .achieve {
@@ -168,7 +186,6 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
     margin-left: 10%;
     padding-top: 30px;
     cursor: pointer;
-    line-height: 200%;
 }
 
 .intro_hide {
@@ -218,10 +235,10 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
 .nav_text, .left, .right_ph h2, .right_p h2, .achieve h1 emph {font-size: 125%;}
 
-.timeline li a:hover, .timeline li a:active, .achieve h1, .right_p h3, .right_t {font-size: 110%;}
+.timeline li a:hover, .timeline li a:active, .achieve h1, .right_p h3, .right_t, .home {font-size: 110%;}
 
 
-.intro_hide, .date {font-size: 90%;}
+.intro_hide, .date, footer {font-size: 90%;}
 
 .desc {font-size: 65%;}
 
@@ -229,11 +246,11 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
 .b1 h1, .text, .calendar_text, .right_p, .right_ph {font-size: 120%;}
 
-.right_p h3 {line-height: 100%;}
+.right_p h3, .calendar {line-height: 100%;}
 
-.left, .right_ph p, .text, .calendar_text, .desc, .intro_hide {line-height: 150%;}
+.left, .right_ph p, .text, .calendar_text, .desc, .intro_hide, .home {line-height: 150%;}
 
-.right_p, .timeline {line-height: 200%;}
+.right_p, .timeline, .textout {line-height: 200%;}
 
 .right_ph table {
     width: 85%;
@@ -247,7 +264,7 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
     height: auto;
 }
 
-.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .img img, .calendar_text, .achieve{display: inline;}
+.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .img img, .calendar_text, .achieve {display: inline;}
 
 .clear::after {
     content: "";
@@ -255,15 +272,11 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
     clear: both;
 }
 
-footer {
+footer, .home {
     left: 0;
     bottom: 0;
     height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
     z-index: 9999;
-    font-size: 90%;
-    background-color: #1ead84;
 }
 
 .nav_text li a, footer div a, .subnav_h1 li a, .subnav_h2 li a, .text a, .desc a, .project, .btn, .timeline a {text-decoration: none;}
@@ -292,3 +305,5 @@ welcome h1 {font-family: 'Signika', sans-serif;}
 footer div a:hover, footer div a:active {color: lightgray;}
 
 .bg_2 {background-color: lightgray;}
+
+footer, .home {background-color: #1ead84;}
