@@ -1,4 +1,4 @@
-html, body, header, .container, footer, .home, .foot_left, .embedded_map, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
+html, body, header, .container, footer, .home, .foot_left, .embedded_map, .right, .welcome, .bg, .bg_1, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
 
 html, body, header, .container, .news_img img, footer, .home {width: 100%;}
 
@@ -46,7 +46,7 @@ html, body, header, .container, footer, .home, .right, .welcome, .bg, .bg_1, .bg
     border-bottom: 1px solid #1ead84;
 }
 
-.right_t table tr th, .right_t table tr td {padding: 10px;}
+.right_t table tr th, .right_t table tr td, .intro_hide {padding: 10px;}
 
 .b, .b1, .b2, footer, .foot_left {
     padding-top: 10px;
@@ -203,6 +203,7 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
     display: none;
     padding-left: 10px;
     border-left: 3px solid #1ead84;
+    border-top-right-radius: 1em;
 }
 
 .lineout {
@@ -315,6 +316,6 @@ welcome h1 {font-family: 'Signika', sans-serif;}
 
 footer div a:hover, footer div a:active {color: lightgray;}
 
-.bg_2 {background-color: lightgray;}
+.intro_hide {background-color: #eeffef;}
 
 footer, .home {background-color: #1ead84;}
