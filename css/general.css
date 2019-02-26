@@ -1,8 +1,12 @@
-html, body, header, .container, footer, .home, .foot_left, .embedded_map, .right, .welcome, .bg, .bg_1, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Monoton');
+@import url('https://fonts.googleapis.com/css?family=Signika');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 
-html, body, header, .container, .news_img img, footer, .home {width: 100%;}
+html, body, header, section, .container, footer, .home, .right, .welcome, .bg, .bg_1, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
 
-section {padding-bottom: 50px;}
+html, body, header, .container, .news_img img, footer {width: 100%;}
+
+.b, .b1, .b2 {margin: 0 auto;}
 
 .left {
     position: fixed;
@@ -15,29 +19,19 @@ section {padding-bottom: 50px;}
 
 .right, .right_t {width: 75%;}
 
-html, body, header, .container, footer, .home, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img, .embedded_map, .b_left iframe {margin: 0;}
+html, body, header, section, .container, footer, .home, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img, .embedded_map {margin: 0;}
 
 .right_ph {margin: 2px;}
 
-.news_img, .news_text, .box img, .right_p {margin: 10px;}
-
-.right_t {margin: 20px;}
+.news_img, .news_text, .box img {margin: 10px;}
 
 .foot_left {
-    margin-left: 20%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
     border-right: 1px solid white;
-    width: 20%;
+    padding-right: 20px;
+    width: 30%;
 }
 
-.embedded_map {
-    border: 3px outset gray;
-    height: 225px;
-    width: 500px;
-    margin-right: 22%;
-}
+.embedded_map {width: 60%;}
 
 .right_ph {padding-bottom: 30px;}
 
@@ -48,12 +42,10 @@ html, body, header, .container, footer, .home, .right, .welcome, .bg, .bg_1, .bg
 
 .right_t table tr th, .right_t table tr td, .intro_hide {padding: 10px;}
 
-.b, .b1, .b2, footer, .foot_left {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.b, .b1, .b2, .home, .right_p, .right_t {
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
-
-.home {padding: 30px;}
 
 .right_t table tr th {vertical-align: top;}
 
@@ -63,11 +55,11 @@ html, body, header, .container, footer, .home, .right, .welcome, .bg, .bg_1, .bg
 
 .right_t table, .right_t table tr th, .right_t table tr td {border: 1px solid gray;}
 
-.nav_text li, h1, .desc, .b1 h1, .b1 h2, footer, .welcome h2, .calendar {text-align: center;}
+.nav_text li, h1, .desc, .b1 h1, .b1 h2, .welcome, .calendar, footer {text-align: center;}
 
 .timeline {text-align: right;}
 
-.foot_left, .text, .right_ph, .right_ph h1, .right_ph h2, .right_ph h3, .right_p, .right_p h1, .right_p h2, .right_p h3, .bg h1, .b2 h1, .b_left h2, .b_right h2, .news_text h1, .right_t table th, .right_t h1 {text-align: left;}
+.foot_left, .text, .right_ph, .right_ph h1, .right_ph h2, .right_ph h3, .right_p, .right_p h1, .right_p h2, .right_p h3, .bg h1, .b2 h1, .b2 h2, .news_text h1, .right_t table th, .right_t h1 {text-align: left;}
 
 header, .container, right, .right_ph, .right_p, .right_t, .intro_hide, .news {overflow: hidden;}
 
@@ -79,76 +71,27 @@ header {
     border-bottom: 3px solid #1ead84;
 }
 
-.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .calendar, .achieve, .achieve_img, .intro_text, .intro_img, .pin, .home, .foot_left, .b_left iframe {float: left;}
+.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .foot_left, .calendar, .achieve, .achieve_img, .intro_text, .intro_img, .pin, .home, .embedded_map iframe {float: left;}
 
-.right, .embedded_map, .b_right {float: right;}
+.foot_left p, .right, .embedded_map, .b_right {float: right;}
 
 html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
-.nav_logo {
-    margin-top: 0;
-    margin-right: 0;
-    padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    border-top-right-radius: 20px;
-}
-
-.nav_text li {border-left: 2px solid #1ead84;}
-
-.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .calendar_text div ul li, .intro_pro li, .timeline li {list-style-type: none;}
-
-.nav_logo li a img {height: 60px;}
-
-.nav_text {
-    float: right;
-    padding-top: 35px;
-    padding-bottom: 15px;
-    padding-right: 5px;
-}
-
-.nav_text li a, .timeline {
-    padding-right: 15px;
-    padding-left: 5px;
-}
+.subnav_h1, .subnav_h2, .calendar_text div ul li, .intro_pro li, .timeline li {list-style-type: none;}
 
 .welcome {
     width: 100%;
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.b1, .b2 {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.b2 {
-    padding-left: 20px;
-    border-top: 1px solid #1ead84;
-}
-
-.b {
-    width: 65%;
-    margin: 0 auto;
-}
-
-.b_left {width: 60%;}
-
-.b_left iframe {
-    border-width:0;
     height: 300px;
-    width: 500px;
-    padding-bottom: 50px;
+    background-repeat: no-repeat;
 }
+
+.b, .b1, .b2 {width: 60%;}
+
+.b2 {border-top: 1px solid #1ead84;}
 
 .b_right {width: 35%;}
 
-.pin {padding: 15px;}
+.pin, footer {padding: 10px;}
  
 .box, .news {
     border: 1px solid gray;
@@ -223,14 +166,15 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
     border: 2px dotted #1ead84;
 }
 
-.welcome h1, .b1 h1 {letter-spacing: 1px;}
+.h1, .b1 h1 {letter-spacing: 1px;}
 
-.welcome h1 {
+.h1 {
     font-size: 500%;
     text-shadow: 0px 1px 5px black;
 }
 
-.welcome h2 {
+.h2 {
+    padding: 10%;
     font-size: 200%;
     text-shadow: 0px 1px 5px black;
 }
@@ -254,13 +198,15 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
 .desc {font-size: 65%;}
 
+.h1, .h2 {font-weight: bolder;}
+
 .desc, .text a, .right_p ul li emph, .right_p emph, .subnav_h1, .subnav_h2, .nav_text, .timeline li {font-weight: bold;}
 
-.b1 h1, .text, .calendar_text, .right_p, .right_ph {font-size: 120%;}
+.b1 h1, .text, .b2 div .calendar_text, .right_p, .right_ph {font-size: 120%;}
 
 .right_p h3, .calendar {line-height: 100%;}
 
-.left, .right_ph p, .text, .b_right div, .calendar_text, .desc, .intro_hide, .home {line-height: 150%;}
+.left, .right_ph p, .text, .b2 div, .calendar_text, .desc, .intro_hide, .home {line-height: 150%;}
 
 .right_p, .timeline, .textout {line-height: 200%;}
 
@@ -276,8 +222,6 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
     height: auto;
 }
 
-.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .img img, .calendar_text, .achieve {display: inline;}
-
 .clear::after {
     content: "";
     display: table;
@@ -287,28 +231,29 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 footer, .home {
     left: 0;
     bottom: 0;
+    right: 0;
     height: auto;
     z-index: 9999;
 }
 
-.nav_text li a, footer div a, .subnav_h1 li a, .subnav_h2 li a, .text a, .desc a, .project, .btn, .timeline a, .b_right a {text-decoration: none;}
+.nav_text li a, footer div a, .subnav_h1 li a, .subnav_h2 li a, .text a, .desc a, .project, .btn, .timeline a, .b2 a {text-decoration: none;}
 
-.nav_text li a, .nav_text li a, .subnav_h1 li a, .subnav_h2 li a, .right h1, .right h2, .right h3, .right h4, .right_ph h1, .right_ph h2, .right_ph h3, .right_ph h4, .right_p h1, .right_p h2, .right_p h3, .right_p h4, .bg h1, .b1 h2, .b2 h1, .calendar, .achieve, .timeline li {
+.nav_text li a, .nav_text li a, .b2 h2, .b2 h3, .subnav_h1 li a, .subnav_h2 li a, .right h1, .right h2, .right h3, .right h4, .right_ph h1, .right_ph h2, .right_ph h3, .right_ph h4, .right_p h1, .right_p h2, .right_p h3, .right_p h4, .bg h1, .b1 h2, .b2 h1, .calendar, .achieve, .timeline li {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-style: normal;
     letter-spacing: 1px;
 }
 
-welcome h1 {font-family: 'Signika', sans-serif;}
+.h1 {font-family: 'Signika', sans-serif;}
 
-.welcome h2, .calendar_text, .b_left h2, .b_left h3, .b_right, .b_right h2, .b_right h3, footer div, footer div a, h1, .text, .right_ph, .right_p, .right_t, ul li, .desc, .achieve h1, .achieve h2, .news {
+.h2, .calendar_text, .b2 h2, .b2 h3, .b2, .b_right h3, footer div, footer div a, h1, .text, .right_ph, .right_p, .right_t, ul li, .desc, .achieve h1, .achieve h2, .news {
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
 }
 
-.nav_text li a:link, .nav_text li a:visited, .text a, .subnav_h1 li a, .desc a, .timeline li a, .b_right a:link, .b_right a:visited {color: black;}
+.nav_text li a:link, .nav_text li a:visited, .text a, .b2 a, .subnav_h1 li a, .desc a, .timeline li a, .b_right a:link, .b_right a:visited {color: black;}
 
-.nav_text li a:hover, .nav_text li a:active, .calendar, .subnav_h1 li a:active, .subnav_h1 li a:hover, .subnav_h2 li a:active, .subnav_h2 li a:hover, .text a:active, .text a:hover, .desc a:active, .desc a:hover, .textout, .btn, .timeline li a:active, .timeline li a:hover, .b_right a:active, .b_right a:hover {color: #1ead84;}
+.nav_text li a:hover, .nav_text li a:active, .calendar, .subnav_h1 li a:active, .subnav_h1 li a:hover, .subnav_h2 li a:active, .subnav_h2 li a:hover, .text a:active, .text a:hover, .b2 a:active, .b2 a:hover, .desc a:active, .desc a:hover, .textout, .btn, .timeline li a:active, .timeline li a:hover, .b_right a:active, .b_right a:hover {color: #1ead84;}
 
 .welcome, footer div a:link, footer div a:visited, footer div {color: white;}
 

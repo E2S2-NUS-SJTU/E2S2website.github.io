@@ -1,0 +1,66 @@
+.nav_logo {
+    margin-top: 0;
+    margin-right: 0;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.nav_text li {border-left: 2px solid #1ead84;}
+
+.nav_logo li, .nav_text li {list-style-type: none;}
+
+.nav_logo li img, .nav_logo li a img {height: 60px;}
+
+@media (max-width: 1220px) {
+    .nav_logo li img {display: inline;}
+    .nav_logo li a img {display: none;}
+}
+
+@media (max-width: 900px) {
+    .h1 {font-size: 400%;}
+}
+
+.nav_text {
+    float: right;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+}
+
+.nav_text li a, .timeline {
+    padding-right: 15px;
+    padding-left: 5px;
+}
+
+.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .img img, .calendar_text, .achieve {display: inline;}
+
+@media only screen and (max-width: 1000px) {
+    .left {display: none;}
+
+    .right, .right_p, .b1, .b2 {float:center;}
+
+    .right, .b1, .b2 {width: 90%;}
+
+    .right {margin-left: 0}
+
+    .right_p {margin-left: 0;}
+}
+
+@media only screen and (max-width: 500px) {
+    .text, .right_p {font-size: 100%}
+
+    .embedded_map iframe {display: none}
+
+    .foot_left {float: center;}
+
+    .foot_left {border: none;}
+
+    .foot_left p {
+        margin: 10%;
+        float: left;
+    }
+
+    .foot_left {width: 90%;}
+}
