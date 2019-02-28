@@ -57,8 +57,6 @@ html, body, header, section, .container, footer, .home, .right, .welcome, .bg, .
 
 .nav_text li, h1, .desc, .b1 h1, .b1 h2, .welcome, .calendar, footer {text-align: center;}
 
-.timeline {text-align: right;}
-
 .foot_left, .text, .right_ph, .right_ph h1, .right_ph h2, .right_ph h3, .right_p, .right_p h1, .right_p h2, .right_p h3, .bg h1, .b2 h1, .b2 h2, .news_text h1, .right_t table th, .right_t h1 {text-align: left;}
 
 header, .container, right, .right_ph, .right_p, .right_t, .intro_hide, .news {overflow: hidden;}
@@ -77,7 +75,7 @@ header {
 
 html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
-.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .calendar_text div ul li, .intro_pro li, .timeline li {list-style-type: none;}
+.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .calendar_text div ul li, .intro_pro li {list-style-type: none;}
 
 .welcome {
     width: 100%;
@@ -131,7 +129,7 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 }
 
 .news {
-    width: 80%;
+    width: 60%;
     margin: 30px;
 }
 
@@ -190,16 +188,16 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
 .nav_text, .left, .right_ph h2, .right_p h2, .achieve h1 emph {font-size: 125%;}
 
-.timeline li a:hover, .timeline li a:active, .achieve h1, .right_p h3, .right_t, .home {font-size: 110%;}
+.date, .achieve h1, .right_p h3, .right_t, .home {font-size: 110%;}
 
 
-.intro_hide, .date, .b_right, footer {font-size: 90%;}
+.intro_hide, .b_right, footer {font-size: 90%;}
 
 .desc {font-size: 65%;}
 
 .h1, .h2 {font-weight: bolder;}
 
-.desc, .text a, .right_p ul li emph, .right_p emph, .subnav_h1, .subnav_h2, .nav_text, .timeline li {font-weight: bold;}
+.desc, .text a, .right_p ul li emph, .right_p emph, .subnav_h1, .subnav_h2, .nav_text {font-weight: bold;}
 
 .b1 h1, .text, .b2 div .calendar_text, .right_p, .right_ph {font-size: 120%;}
 
@@ -207,7 +205,7 @@ html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
 .left, .right_ph p, .text, .b2 div, .calendar_text, .desc, .intro_hide, .home {line-height: 150%;}
 
-.right_p, .timeline, .textout {line-height: 200%;}
+.right_p, .textout {line-height: 200%;}
 
 .right_ph table {
     width: 85%;
@@ -235,9 +233,9 @@ footer, .home {
     z-index: 9999;
 }
 
-.nav_text li a, footer div a, .subnav_h1 li a, .subnav_h2 li a, .text a, .desc a, .project, .btn, .timeline a, .b2 a {text-decoration: none;}
+.nav_text li a, footer div a, .subnav_h1 li a, .subnav_h2 li a, .text a, .desc a, .project, .btn, .b2 a, a {text-decoration: none;}
 
-.nav_text li a, .nav_text li a, .b2 h2, .b2 h3, .subnav_h1 li a, .subnav_h2 li a, .right h1, .right h2, .right h3, .right h4, .right_ph h1, .right_ph h2, .right_ph h3, .right_ph h4, .right_p h1, .right_p h2, .right_p h3, .right_p h4, .bg h1, .b1 h2, .b2 h1, .calendar, .achieve, .timeline li {
+.nav_text li a, .nav_text li a, .b2 h2, .b2 h3, .subnav_h1 li a, .subnav_h2 li a, .right h1, .right h2, .right h3, .right h4, .right_ph h1, .right_ph h2, .right_ph h3, .right_ph h4, .right_p h1, .right_p h2, .right_p h3, .right_p h4, .bg h1, .b1 h2, .b2 h1, .calendar, .achieve {
     font-family: 'Ubuntu Condensed', sans-serif;
     font-style: normal;
     letter-spacing: 1px;
@@ -250,13 +248,13 @@ footer, .home {
     font-style: normal;
 }
 
-.nav_text li a:link, .nav_text li a:visited, .text a, .b2 a, .subnav_h1 li a, .desc a, .timeline li a, .b_right a:link, .b_right a:visited {color: black;}
+.nav_text li a:link, .nav_text li a:visited, .text a, .b2 a, .subnav_h1 li a, .desc a, .b_right a:link, .b_right a:visited, .news_text h1 a {color: black;}
 
-.nav_text li a:hover, .nav_text li a:active, .calendar, .subnav_h1 li a:active, .subnav_h1 li a:hover, .subnav_h2 li a:active, .subnav_h2 li a:hover, .text a:active, .text a:hover, .b2 a:active, .b2 a:hover, .desc a:active, .desc a:hover, .textout, .btn, .timeline li a:active, .timeline li a:hover, .b_right a:active, .b_right a:hover {color: #1ead84;}
+.nav_text li a:hover, .nav_text li a:active, .calendar, .subnav_h1 li a:active, .subnav_h1 li a:hover, .subnav_h2 li a:active, .subnav_h2 li a:hover, .text a:active, .text a:hover, .b2 a:active, .b2 a:hover, .desc a:active, .desc a:hover, .textout, .btn, .b_right a:active, .b_right a:hover, .news_text h1 a:hover, .news_text h1 a:active, .news_text a:active, .news_text a:hover {color: #1ead84;}
 
-.welcome, footer div a:link, footer div a:visited, footer div {color: white;}
+.welcome, footer div a:link, footer div a:visited, footer div, #Academic, #Life {color: white;}
 
-.btn:hover, .btn:active, .date {color: gray;}
+.btn:hover, .btn:active, .date, .news_text a  {color: gray;}
 
 footer div a:hover, footer div a:active {color: lightgray;}
 
