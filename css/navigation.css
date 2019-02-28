@@ -9,73 +9,9 @@
 
 .nav_text li {border-left: 2px solid #1ead84;}
 
-.nav_logo li, .nav_text li {list-style-type: none;}
-
 .nav_logo li img, .nav_logo li a img {height: 60px;}
 
 .nav_button {display:none;}
-
-@media screen and (max-width: 1220px) {
-    .nav_logo li img {display: inline;}
-    .nav_logo li a img {display: none;}
-    .nav_text li a {font-size: 120%;}
-}
-
-@media screen and (max-width: 1000px) {
-    .h1 {font-size: 400%;}
-
-    header {height: 150px;}
-
-    .nav_logo li img {height: 120px;}
-
-    nav label[for="nav_button"] {
-        display: block;
-        float: right;
-        margin: 30px;
-        height: 80px;
-        width: 75px;       
-        border: 8px solid #1ead84;
-        border-radius: 1em;
-        background-color: white;
-    }
-
-    .nav_toggle span {
-        display: block;
-        width: 55px;
-        height: 5px;
-        float: center;
-        background-color: #1ead84;
-        border-radius: 2px;
-        margin:15px 10px;
-    }
-    
-    .nav_text {display: none;}
-
-    nav input:checked~.nav_text {
-        display: block;
-        overflow: visible;
-        background-color: white;
-        margin-top: 0;
-        right: 0;
-    }
-
-    nav input:checked~.nav_text li{display: block;}
-
-    .nav_text li a{font-size: 200%;}
-
-    .foot_left {
-        width: 90%;
-        float: center;
-        border: none;
-    }
-
-    .foot_left p {
-        margin-left: 5%;
-        float: left;
-        font-size: 150%;
-        line-height: 150%;
-    }
-}
 
 .nav_text {
     float: right;
@@ -91,14 +27,90 @@
 
 .nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .img img, .calendar_text, .achieve {display: inline;}
 
+@media screen and (max-width: 1220px) {
+    .nav_logo li img {display: inline;}
+    .nav_logo li a img {display: none;}
+    .nav_text li a {font-size: 120%;}
+}
+
 @media screen and (max-width: 1000px) {
+    .h1 {font-size: 400%;}
+    .h2 {font-size: 300%;}
+    .nav_text {display: none;}
+    header {height: auto;}
+
+    nav label, nav label[for="nav_button"], .nav_toggle span, nav input:checked~.nav_text, nav input:checked~.nav_text li{display: block;}
+
+    .nav_logo li img {height: 120px;}
+
+    nav label[for="nav_button"] {
+        float: right;
+        margin: 30px;
+        height: 80px;
+        width: 75px;       
+        border: 8px solid #1ead84;
+        border-radius: 1em;
+        background-color: white;
+    }
+
+    .nav_toggle span {
+        width: 55px;
+        height: 5px;
+        float: center;
+        background-color: #1ead84;
+        border-radius: 2px;
+        margin:15px 10px;
+    }
+
+    nav input:checked~.nav_text {
+        width: 60%;
+        overflow: visible;
+        background-color: white;
+        margin: 0 20%;
+        float: center;
+    }
+
+    .nav_text li {
+        text-align: center;
+        border-left: none;
+        border-bottom: 1px solid gray;
+        border-collapse: collapse;
+        padding-left: 10%;
+    }
+
+    .nav_text li a{
+        line-height: 250%;
+        font-size: 300%;
+    }
+
+    .foot_left {
+        width: 90%;
+        float: center;
+        border: none;
+    }
+
+    .foot_left p {
+        margin-left: 5%;
+        float: left;
+        font-size: 150%;
+        line-height: 150%;
+    }
+
     .left, .embedded_map iframe {display: none;}
     .right, .right_p, .b1, .b2 {float:center;}
     .right, .b1, .b2 {width: 90%;}
     .right {margin-left: 0}
     .right_p {margin-left: 0;}
+
+    .img img {
+        width: 252px;
+        height: 315px;
+    }
+
+    .desc {font-size: 125%}
 }
 
 @media screen and (max-width: 500px) {
+
 
 }

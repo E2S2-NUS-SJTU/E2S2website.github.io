@@ -77,7 +77,7 @@ header {
 
 html, body, header, .container, footer, .b1, .news_img, .b {float: center;}
 
-.subnav_h1, .subnav_h2, .calendar_text div ul li, .intro_pro li, .timeline li {list-style-type: none;}
+.nav_logo li, .nav_text li, .subnav_h1, .subnav_h2, .calendar_text div ul li, .intro_pro li, .timeline li {list-style-type: none;}
 
 .welcome {
     width: 100%;
