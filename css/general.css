@@ -4,36 +4,36 @@
 
 html, body, header, section, .container, footer, .home, .right, .welcome, .bg, .bg_1, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
 
-html, body, header, .container, .welcome, .news, .news_img, .news img, .news_img_a img, .news_img_bl img, .news_img_br img, footer {width: 100%;}
+html, body, header, .container, .welcome, .news, .news_img, .news img, .news_img_a img, .news_img_bl img, .news_img_br img, .resource_img_a img, .resource_img_bl img, .resource_img_br img, footer {width: 100%;}
 
-.b, .b1, .b2, .sub_news {margin: 0 auto;}
+.b, .b1, .b2, .sub_news {margin: 10px auto;}
 
 .left {
     position: fixed;
-    left: 5%;
+    left: 10%;
     width: 15%;
     z-index: 100;
     border-right: 1.5px dashed #1ead84;
     margin: 20px 0;
 }
 
-.news_img_a, .sub_news_par {width: 90%;}
+.news_img_a, .sub_news_par, .resource_img_a {width: 90%;}
 
-.right, .right_t {width: 75%;}
+.right, .right_t {width: 70%;}
 
-.b, .b1, .b2, .sub_news, .embedded_map {width: 60%;}
+.b, .b1, .b2, .sub_news, .embedded_map, .resource_img_a, .sub_resource_par {width: 60%;}
 
 .achieve {width: 50%;}
 
-.news_img_bl, .news_img_br {width: 49%;}
+.news_img_bl, .news_img_br, .resource_img_bl, .resource_img_br {width: 49%;}
 
 .b_right, .foot_left {width: 35%;}
 
 html, body, header, section, .container, footer, .home, .right, .welcome, .bg, .bg_1, .bg_2, .calendar_text, .calendar, .achieve, .achieve_img, .embedded_map {margin: 0;}
 
-.news_img, .news_img_a div, .news_img_bl div, .news_img_br div, .news_text, .box img, .right_ph {margin: 10px;}
+.news_img, .news_img_a div, .news_img_bl div, .news_img_br div, .resource_img_a div, .resource_img_bl div, .resource_img_br div, .news_text, .box img, .right_ph {margin: 10px;}
 
-.news_img_a, .sub_news_par {margin: 10px auto;}
+.news_img_a, .resource_img_a, .sub_news_par {margin: 10px auto;}
 
 .foot_left {
     border-right: 1px solid white;
@@ -76,9 +76,9 @@ header {
     border-bottom: 3px solid #1ead84;
 }
 
-.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .foot_left, .calendar, .achieve, .achieve_img, .intro_text, .intro_img, .pin, .home, .embedded_map iframe, .news_img_bl {float: left;}
+.nav_logo, .left, .img, .textout, .lineout, .calendar_text, .foot_left, .calendar, .achieve, .achieve_img, .intro_text, .intro_img, .home, .embedded_map iframe, .news_img_bl, .resource_img_a, .resource_img_bl {float: left;}
 
-.foot_left p, .right, .embedded_map, .b_right, .news_img_br {float: right;}
+.foot_left p, .right, .embedded_map, .b_right, .news_img_br, .resource_img_br {float: right;}
 
 html, body, header, .container, footer, .b1, .news_img, .news_img_a, .sub_news_par, .b {float: center;}
 
@@ -91,9 +91,9 @@ html, body, header, .container, footer, .b1, .news_img, .news_img_a, .sub_news_p
 
 .b2 {border-top: 1px solid #1ead84;}
 
-.pin, footer {padding: 10px;}
+footer {padding: 10px;}
  
-.box, .news, .news_img_a, .news_img_br, .news_img_bl {
+.box, .news, .news_img_a, .news_img_br, .news_img_bl, .resource_img_a, .resource_img_bl, .resource_img_br {
     border: 1px solid gray;
     box-shadow: 0 0 6px #ccc;
     border-radius: 5px;
@@ -185,7 +185,7 @@ html, body, header, .container, footer, .b1, .news_img, .news_img_a, .sub_news_p
 
 .subnav_h2, .text {text-indent: 2em;}
 
-.right_ph h2, .achieve div h2 {font-size: 175%;}
+.right_ph h2, .achieve div h2, .right h2 {font-size: 175%;}
 
 .right_ph h1, .right_p h1, .news_img h1 {font-size: 150%;}
 
