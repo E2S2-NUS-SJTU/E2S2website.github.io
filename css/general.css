@@ -25,7 +25,7 @@ html, body, header, .container, .welcome, .news, .news_img, .news img, .news_img
 
 .achieve {width: 50%;}
 
-.news_img_bl, .news_img_br {width: 47%;}
+.news_img_bl, .news_img_br {width: 49%;}
 
 .b_right, .foot_left {width: 35%;}
 
@@ -132,7 +132,6 @@ html, body, header, .container, footer, .b1, .news_img, .news_img_a, .sub_news_p
 .sub_news {
     border-left: 1.5px dashed #1ead84;
     border-right: 1.5px dashed #1ead84;
-    padding: 30px;
     align-items: center;
     padding-bottom: 30px;
     margin-top: 30px;
