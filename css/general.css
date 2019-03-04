@@ -4,14 +4,14 @@
 
 html, body, header, section, .container, footer, .home, .right, .welcome, .bg, .bg_1, .calendar_text, .calendar, .achieve, .achieve_img {position: relative;}
 
-html, body, header, .container, .welcome, .news, .news_img, .news img, .news_img_a img, .news_img_bl img, .news_img_br img, .resource_img_a img, .resource_img_bl img, .resource_img_br img, footer {width: 100%;}
+html, body, header, .container, .welcome, .news, .news_img, .news img, .news_img_a img, .news_img_bl img, .news_img_br img, .resource_img_a img, .resource_img_bl img, .resource_img_br img, .about_img img, footer {width: 100%;}
 
 .b, .b1, .b2, .sub_news {margin: 10px auto;}
 
 .left {
     position: fixed;
-    left: 10%;
-    width: 15%;
+    left: 5%;
+    width: 20%;
     z-index: 100;
     border-right: 1.5px dashed #1ead84;
     margin: 20px 0;
@@ -19,9 +19,9 @@ html, body, header, .container, .welcome, .news, .news_img, .news img, .news_img
 
 .news_img_a, .sub_news_par, .resource_img_a {width: 90%;}
 
-.right, .right_t {width: 70%;}
+.right, .right_t, .resource_img_a, .sub_resource_par {width: 70%;}
 
-.b, .b1, .b2, .sub_news, .embedded_map, .resource_img_a, .sub_resource_par {width: 60%;}
+.b, .b1, .b2, .sub_news, .embedded_map {width: 60%;}
 
 .achieve {width: 50%;}
 
@@ -33,7 +33,7 @@ html, body, header, section, .container, footer, .home, .right, .welcome, .bg, .
 
 .news_img, .news_img_a div, .news_img_bl div, .news_img_br div, .resource_img_a div, .resource_img_bl div, .resource_img_br div, .news_text, .box img, .right_ph {margin: 10px;}
 
-.news_img_a, .resource_img_a, .sub_news_par {margin: 10px auto;}
+.news_img_a, .resource_img_a, .sub_news_par, .about_img {margin: 10px auto;}
 
 .foot_left {
     border-right: 1px solid white;
@@ -120,9 +120,9 @@ footer {padding: 10px;}
 .achieve {padding: 10px 0;}
 
 .achieve_img {
-    width: 100px;
-    height: 100px;
-    background-size: 100px;
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
     background-repeat: no-repeat;
     padding-right: 5px;
 }
@@ -183,7 +183,7 @@ footer {padding: 10px;}
 
 .achieve h2 emph, .bg h1{font-size: 200%;}
 
-.subnav_h2, .text {text-indent: 2em;}
+.subnav_h2, .text, .intro_hide {text-indent: 2em;}
 
 .right_ph h2, .achieve div h2, .right h2 {font-size: 175%;}
 
